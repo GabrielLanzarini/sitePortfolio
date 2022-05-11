@@ -1,0 +1,171 @@
+/* Animacoes */
+.clique-para-comecar-text{
+    color: #293946;
+    animation: pisca 0.9s infinite ease-in-out alternate;
+}
+
+@keyframes pisca {
+    0%{
+        color: #293946;
+    }
+    100%{
+        color: white;
+    }
+}
+
+header{
+    animation: headerSurgir 0.5s forwards ease-in-out;
+}
+
+@keyframes headerSurgir {
+    from{
+        top: -50px;  
+    }
+
+    to {
+        top: 0px;  
+    }
+}
+
+.animacao-p{
+    opacity: 0;
+    animation: surgirBotoes 1s forwards ease-in-out 0.5s;
+}
+
+
+@keyframes surgirBotoes {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
+
+footer{
+    bottom: -50px;
+    animation: footerSurgir 0.5s forwards ease-in-out 1.5s;
+}
+
+@keyframes footerSurgir {
+    from{
+        bottom: -50px;  
+    }
+
+    to {
+        bottom: 0px;  
+    }
+}
+
+.nome-texto{
+    position: relative;
+    right: 3000px;
+    animation: textoSurgir 0.5s forwards ease-in-out 0.5s;
+}
+
+@keyframes textoSurgir {
+    0%{
+        right: 3000px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+.texto-dev{
+    position: relative;
+    top: -3000px;
+    transform: rotate(180deg);
+    animation: textoDevSurgir 0.5s forwards ease-in-out;
+}
+
+@keyframes textoDevSurgir {
+    from{
+        transform: rotate(180deg);
+        top: -3000px;
+    }
+
+    to {
+        transform: rotate(0);
+        top: 0px;
+    }
+}
+
+.ola-text{
+    position: relative;
+    left: -3000px;
+    animation: textoOlaSurgir 0.5s forwards ease-in-out 1s;
+}
+
+
+@keyframes textoOlaSurgir {
+    from{
+        left: -3000px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.luz-roxa{
+    filter: blur(100px);
+    right: 80px;
+    bottom: 320px;
+    animation: movimentoVerde 10s infinite ease-in-out alternate ;
+}
+
+@keyframes movimentoVerde {
+    0%{
+        filter: blur(100px);
+        right: 80px;
+        bottom: 320px;
+    }
+    25%{
+        filter: blur(200px);
+        right: 80px;
+        bottom: 0px;
+    }
+    75%{
+        filter: blur(150px);
+        right: 200px;
+        bottom: 0px;
+    }
+    100%{
+        filter: blur(200px);
+        right: 80px;
+        bottom: 0px;
+    }
+}
+
+.luz-verde{
+    filter: blur(100px);
+    left: 80px;
+    bottom: 0px;
+    animation: movimentoRoxo 10s infinite ease-in-out alternate 1s;
+}
+
+@keyframes movimentoRoxo {
+    0%{
+        filter: blur(100px);
+        left: 80px;
+        bottom: 0px;
+    }
+    50%{
+        filter: blur(200px);
+        left: 150px;
+        bottom: 500px;
+    }
+    75%{
+        filter: blur(150px);
+        left: 200px;
+        bottom: 200px;
+    }
+    100%{
+        filter: blur(100px);
+        left: 80px;
+        bottom: 0px;
+    }
+}

@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1050px) {
+    .section-contents {
+        flex-direction: column;
+    }
+
+    .menu-esquerda {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20%;
+    }
+
+    .barra-aberta{
+        width: calc(20% - 20px);
+    }
+
+    .b-top{
+        border-top: 1px solid #718290;
+    }
+
+    .cointainer-menu-principal {
+        width: 100%;
+    }
+
+    .container-textos-codigos {
+        flex-direction: column;
+    }  
+
+    .container-textos{
+        width: 100%;
+        height: 40%;
+        border-bottom: 1px solid #718290;
+    }
+
+    .container-codigos {
+        width: 100%;
+        height: 50%;
+    }
+
+    .section-contents {
+        height: 200% ;
+    }
+
+    .card-codigo{
+        height: 270px;
+    }
+
+    .font-adjust{
+        font-size: 15px;
+    }
+
+    .adjust-menu-projetos{
+        height: auto;
+    }
+
+    .secao-projetos-ajustada{
+        height: auto;
+    }
+
+    .container-projetos{
+        flex-direction: row;
+    }
+
+    .card-projeto-ext{
+        width: 400px;
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .div-nome-botao-fechar{
+        display: block;
+    }
+
+
+
+    .menu-celular-int{
+        z-index: 1;
+        display: flex;
+        position: fixed;
+        left: -1000px;
+        width: 70%;
+        height: 100vh;
+        background-color: #021423;
+        outline: #718290 1px solid;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+   
+
+    /* font-family: principal; 20px */
+    .botoes-celular{
+        display: flex;
+        font-family: principal;
+        font-size: 20px;
+        color: #718290;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: #718290 1px solid;
+
+    }
+
+    .div-nome-botao-fechar{
+        display: flex;
+        border-bottom: #718290 1px solid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .botao-corrigir{
+        border: none;
+        padding-right: 15px;
+        border-right: #718290 1px solid;
+    }
+
+    .x-img{
+        width: 25px;
+        margin-right: 10px;
+        transform: rotate();
+        padding: 10px;
+    }
+
+    .div-icones{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: #718290 1px solid;
+        align-items: center;
+    }
+
+    .div-icones>a{
+        padding: 20px 0 20px 0 ;
+        border: none;
+    }
+
+    .font-icon{
+        font-family: icones;
+        font-size: 25px;
+    }
+
+    .img-git-icon-celular{
+        width: 25px;
+    }
+
+    .nome-texto{
+        font-size: 40px;
+    }
+
+    .descricao-jogo {
+        font-size: 20px;
+    }
+
+    .linguagens-div {
+        margin-left: 15px;
+    }
+
+    .texto-codigo {
+        margin-left: 10px;
+    }
+
+    .li-text{
+        margin-left: 5px;
+    }
+
+    .texto-codigos {
+        font-size: 25px;
+    }
+
+    .divTextos {
+        margin-left: 10px;
+    }
+
+    .container-codigos {
+        height: 58%;
+    }
+
+    .barra-aberta {
+        width: 30%;
+    }
+}
