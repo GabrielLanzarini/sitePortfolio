@@ -33,6 +33,7 @@ a{
     display: none;
 }
 
+
 body{
     width: 100vw;
     height: 100vh;
@@ -259,6 +260,16 @@ body::-webkit-scrollbar-thumb{
     border-radius: 100px;
 }
 
+.container-projetos::-webkit-scrollbar{
+    background-color: #011627;
+    outline: 1px solid #718290;
+}
+
+.container-projetos::-webkit-scrollbar-thumb{
+    background-color: #293946;
+    border-radius: 100px;
+}
+
 /* Novos containers */
 
 
@@ -437,7 +448,7 @@ footer{
 }
 
 .git-font::after{
-    background-image: url('../img/iconesimg/github.png');
+    background-image: url('../img/imagens-text/github.png');
     background-size: 35px 35px;
     width: 35px;
     height: 35px;

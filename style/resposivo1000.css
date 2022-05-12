@@ -68,9 +68,11 @@
 }
 
 @media only screen and (max-width: 770px) {
-    body{
+
+    html{
         overflow-x: hidden;
     }
+
     header{
         display: none;
     }
@@ -96,6 +98,14 @@
         outline: #718290 1px solid;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .menu-esquerda {
+        height: 380px;
+    }
+
+    .texto-pastas {
+        font-size: 15px;
     }
 
    
